@@ -1,6 +1,15 @@
 <template>
   <div>
-    
+    <DataTable
+      :items="[
+        {
+          nome: 'diego'
+        },
+        {
+          nome: 'tauil'
+        },
+      ]"
+    />
   </div>
 </template>
 
